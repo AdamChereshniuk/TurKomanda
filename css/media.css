@@ -1,0 +1,250 @@
+@media (max-width: 1200px) {
+    .avaliable-list::after {
+        width: 150px;
+        height: 150px;
+        right: -20px;
+        top: -80px;
+    }
+
+    .prices-title::after {
+        width: 100px;
+        height: 100px;
+        right: -30px;
+    }
+
+    .hero-title {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 980px) {
+    .hero-img {
+        display: none;
+    }
+
+    .hero-inner {
+        display: block;
+    } 
+
+    .hero-title {
+        max-width: 700px;
+    }
+
+    .hero-title::after {
+        left: 320px;
+    }
+
+    .hero-text {
+        max-width: 700px;
+    }
+
+    .hero-text::after {
+        right: 200px;
+    }
+
+    .city-title {
+        font-size: 52px;
+        width: 500px;
+    }
+
+    .city-title::after {
+        right: -30px;
+        top: -2px;
+    }
+
+    .city-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .avaliable-inner::before {
+        width: 100%;
+    }
+
+    .avaliable-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .avaliable-list::after {
+        right: 100px;
+    }
+
+    .avaliable-title {
+        font-size: 52px;
+    }
+
+    .prices-inner {
+        width: 650px;
+    }
+
+    .prices-title::after {
+        right: 250px;
+        top: 150px;
+    }
+}
+
+@media (max-width: 780px) {
+    .hero-title::after {
+        left: 480px;
+    }
+
+    .hero-text::after {
+        right: 70px;
+    }
+
+    .want-inner {
+        flex-direction: column;
+        align-items: start;
+        gap: 60px;
+    }
+
+    .avaliable-list::after {
+        right: 10px;
+    }
+
+    .prices-inner {
+        width: 100%;
+    }
+
+    .prices-title {
+        font-size: 46px;
+        width: 560px;
+    }
+
+    .prices-title::after {
+        right: 320px;
+        top: 90px;
+    }
+
+    .hero-img-absolute {
+        width: 400px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 620px) {
+    .hero-section {
+        padding-bottom: 240px;
+    }
+
+    .hero-title {
+        width: 400px;
+        font-size: 38px;
+    }
+
+    .hero-title::after {
+        top: 50px;
+        left: 310px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .hero-text::after {
+        top: 280px;
+        left: -70px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .avaliable-list::after {
+        right: -10px;
+        width: 95px;
+        height: 95px;
+    }
+
+    .avaliable-title {
+        font-size: 42px;
+    }
+
+    .city-title {
+        width: 400px;
+    }
+    
+    .city-title::after {
+        top: 50px;
+        right: 60px;
+    }
+
+    .prices-title {
+        width: 100%;
+    }
+
+    .prices-title::after {
+        top: 150px;
+        right: 0;
+    }
+
+    .prices-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: start;
+    }
+}
+
+@media (max-width: 480px) {
+    .avaliable-inner {
+        max-width: 800px;
+    }
+
+    .avaliable-title {
+        font-size: 24px;
+        width: 220px;
+    }
+
+    .avaliable-list::after {
+        width: 85px;
+        height: 85px;
+        left: 100px;
+    }
+
+    .avaliable-item-list-item {
+        font-size: 20px;
+    }
+
+    .city-title {
+        width: 240px;
+        font-size: 30px;
+    }
+
+    .city-title::after {
+        right: 10px;
+        top: 40px;
+        width: 120px;
+        height: 100px;
+    }
+
+    .city-item-list-item {
+        font-size: 16px;
+    }
+
+    .hero-section {
+        padding-bottom: 300px;
+    }
+
+    .hero-title {
+        width: 260px;
+        font-size: 28px;
+    }
+
+    .hero-title::after {
+        top: 40px;
+        left: 220px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .hero-text::after {
+        top: 380px;
+    }
+
+    .prices-title {
+        font-size: 36px;
+    }
+
+    .prices-title::after {
+        top: 100px;
+    } 
+}

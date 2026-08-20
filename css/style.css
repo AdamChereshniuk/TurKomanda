@@ -1,0 +1,322 @@
+/* Main Styles */
+body {
+    font-family: "Forum", sans-serif;
+    font-weight: 400;
+    color: #3B3B3B;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.registration-btn {
+    width: fit-content;
+    background-color: #FFF048;
+    padding: 23px 20px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    font-family: "Pacifico", sans-serif;
+    color: #3B3B3B;
+}
+
+/* Hero */
+.hero-section {
+    background-color: #524DA1;
+    color: #fff;
+    padding: 70px 0;
+}
+
+.hero-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.hero-img-absolute {
+    position: absolute;
+    top: -70px;
+    left: 0;
+}
+
+.hero-img {
+    display: block;
+    color: #fff;
+    filter: drop-shadow(0 0 100px #fff);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    width: 100%;
+    max-width: 640px;
+    position: relative;
+}
+
+.hero-title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url("../img/tg-emoji.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    bottom: 0;
+    right: 0;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 100%;
+    max-width: 580px;
+    font-family: "Gentium Plus", sans-serif;
+    position: relative;
+}
+
+.hero-text::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-image: url("../img/plane-emoji.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: -200px;
+    right: -80px;
+}
+
+/* Want */
+.want-section {
+    padding: 80px 0;
+}
+
+.want-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.want-list {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.want-item {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.want-list .want-item:nth-child(1) {
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 100%;
+    max-width: 500px;
+}
+.want-list .want-item:nth-child(2) {
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 100%;
+    max-width: 620px;
+}
+
+/* Prices */
+.prices-section {
+    padding: 80px 0 60px;
+}
+
+.prices-inner {
+    width: 100%;
+    max-width: 860px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.prices-title {
+    font-family: "Gentium Plus", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    position: relative;
+}
+
+.prices-title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url("../img/russian-flag-emoji.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+    top: 0;
+    right: -80px;
+    top: 40px;
+}
+
+.prices-text, .prices-item {
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+
+.prices-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.prices-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* City */
+.city-section {
+    background-color: #524DA1;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.city-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.city-title {
+    font-family: "Gentium Plus", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    position: relative;
+}
+
+.city-title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url("../img/flamingo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 140px;
+    right: 50px;
+    bottom: -35px;
+}
+
+.city-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.city-item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.city-item-list-item {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+/* Avaliable */
+.avaliable-section {
+    background-color: #524DA1;
+    color: #fff;
+    padding: 128px 0 54px;
+    position: relative;
+}
+
+.avaliable-inner::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url("../img/separation.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 900px;
+    height: 100px;
+    top: -50px;
+}
+
+.avaliable-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+}
+
+.avaliable-title {
+    font-family: "Gentium Plus", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 125%;
+    letter-spacing: 0%;
+}
+
+.avaliable-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+}
+
+.avaliable-list::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url("../img/globus.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    top: -100px;
+    right: -150px;
+}
+
+.avaliable-item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.avaliable-item-list-item {
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
