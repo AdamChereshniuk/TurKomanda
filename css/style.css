@@ -9,7 +9,7 @@ body {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 15px;
 }
 
 .registration-btn {
@@ -251,6 +251,7 @@ body {
     font-size: 25px;
     line-height: 100%;
     letter-spacing: 0%;
+    cursor: pointer;
 }
 
 /* Avaliable */
